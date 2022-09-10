@@ -24,7 +24,14 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+   <!-- Style -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" />
+   <link href="assets/css/fresh-bootstrap-table.css" rel="stylesheet" />
+ 
+   <!-- Fonts and icons -->
+   <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet">
+   <link href="http://fonts.googleapis.com/css?family=Roboto:400,700,300" rel="stylesheet" type="text/css">
+ 
   <!-- =======================================================
   * Template Name: Arsha - v4.8.0
   * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
@@ -62,12 +69,67 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>WebGalleria</h1>
-          <h2>A directory specific personal web gallery to view photos on the go.</h2>
+          <!-- <h1>WebGalleria</h1>
+          <h2>A directory specific personal web gallery to view photos on the go.</h2> -->
+          <div class="container">
+            <div class="fresh-table full-color-orange">
+              <!--
+                Available colors for the full background: full-color-blue, full-color-azure, full-color-green, full-color-red, full-color-orange
+                Available colors only for the toolbar: toolbar-color-blue, toolbar-color-azure, toolbar-color-green, toolbar-color-red, toolbar-color-orange
+              -->
+            
+              <!-- <div class="toolbar">
+                <button id="alertBtn" class="btn btn-default">Alert</button>
+              </div> -->
+            
+              <table id="fresh-table" class="table">
+                <thead>
+                  <th data-field="id">ID</th>
+                  <th data-field="name">Name</th>
+                  <th data-field="roll">Roll Number</th>
+                  <th data-field="cv">CV</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="align-middle">1</td>
+                    <td class="align-middle">Vinod Kumar Batthala</td>
+                    <td class="align-middle">B191060CS</td>
+                    <td class="align-middle">
+                      <a href="assets/cvs/vinod.pdf" target="_blank" class="btn btn-primary" style="background-color: blue; color: white;"> View CV</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle">2</td>
+                    <td class="align-middle">Thadi Umesh Chandra Reddy</td>
+                    <td class="align-middle">B190411CS</td>
+                    <td class="align-middle">
+                      <a href="assets/cvs/umesh.pdf" target="_blank" class="btn btn-primary" style="background-color: blue; color: white;"> View CV</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle">3</td>
+                    <td class="align-middle">Induru Revanth Kumar Reddy</td>
+                    <td class="align-middle">B191271CS</td>
+                    <td class="align-middle">
+                      <a href="assets/cvs/revanth.pdf" target="_blank" class="btn btn-primary" style="background-color: blue; color: white;"> View CV</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle">4</td>
+                    <td class="align-middle">Uppari Sai Tarun</td>
+                    <td class="align-middle">B190610CS</td>
+                    <td class="align-middle">
+                      <a href="assets/cvs/tarun.pdf" target="_blank" class="btn btn-primary" style="background-color: blue; color: white;"> View CV</a>
+                    </td>
+                  </tr>                  
+                </tbody>
+              </table>
+            </div>
+            
+          <!-- </div>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started scrollto">Learn more</a>
-            <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-          </div>
+          </div> -->
         </div>
         <!-- <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
@@ -76,6 +138,8 @@
     </div>
 
   </section><!-- End Hero -->
+
+  
 
   <main id="main">  
     <!-- ======= About Us Section ======= -->
